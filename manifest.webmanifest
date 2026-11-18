@@ -1,0 +1,16 @@
+{
+  "name": "FITNESS OS",
+  "short_name": "FITNESS OS",
+  "description": "Registro e análise pessoal de treino de hipertrofia.",
+  "lang": "pt-BR",
+  "start_url": "./#/painel",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f1115",
+  "theme_color": "#0f1115",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

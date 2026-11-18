@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#0f1115">
+  <meta name="description" content="FITNESS OS — registro e análise pessoal de treino de hipertrofia.">
+  <title>FITNESS OS</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <header class="top"><span class="brand">FITNESS<b>OS</b></span></header>
+  <main id="main" tabindex="-1"><p class="muted center">Carregando…</p></main>
+  <div id="timer" hidden role="timer" aria-live="off">
+    <div class="t-fill"></div>
+    <span class="t-label">Descanso</span>
+    <span class="t-time" aria-live="polite">0:00</span>
+    <button type="button" class="t-plus" aria-label="Mais 15 segundos">+15s</button>
+    <button type="button" class="t-stop" aria-label="Parar cronômetro">✕</button>
+  </div>
+  <nav id="nav" aria-label="Navegação principal"></nav>
+  <noscript>O FITNESS OS precisa de JavaScript.</noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
